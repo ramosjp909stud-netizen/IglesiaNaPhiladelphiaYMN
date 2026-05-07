@@ -1,0 +1,87 @@
+{
+  "expo": {
+    "name": "Iglesia Na Philadelphia YMN",
+    "slug": "iglesia-na-philadelphia-ymn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/main-app-icon.png",
+    "scheme": "iglesianaphiladelphiaymn",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#87CEEB"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/main-app-icon.png",
+      "bundleIdentifier": "com.iglesianaphiladelphiaymn.himnario"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#2C3E50",
+        "foregroundImage": "./assets/adaptive-icon.jpg",
+        "monochromeImage": "./assets/monochrome-icon.jpg"
+      },
+      "icon": "./assets/main-app-icon.png",
+      "package": "com.iglesianaphiladelphiaymn.himnario",
+      "splash": {
+        "image": "./assets/splash.jpg",
+        "resizeMode": "contain",
+        "backgroundColor": "#87CEEB"
+      },
+      "versionCode": 1,
+      "permissions": [],
+      "intentFilters": []
+    },
+    "web": {
+      "favicon": "./assets/web/favicon-32x32.png",
+      "icon": "./assets/web/icon-512.png",
+      "appleTouchIcon": "./assets/web/apple-touch-icon.png",
+      "themeColor": "#F5F0E1",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "cover",
+        "backgroundColor": "#F5F0E1"
+      },
+      "meta": {
+        "apple-mobile-web-app-capable": "yes",
+        "apple-mobile-web-app-status-bar-style": "default",
+        "apple-mobile-web-app-title": "Iglesia Na Philadelphia YMN",
+        "application-name": "Iglesia Na Philadelphia YMN",
+        "msapplication-TileColor": "#F5F0E1",
+        "msapplication-config": "./assets/web/browserconfig.xml"
+      },
+      "manifest": "./assets/web/manifest.json"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.jpg",
+          "imageWidth": 400,
+          "resizeMode": "contain",
+          "backgroundColor": "#87CEEB",
+          "dark": {
+            "backgroundColor": "#1a1a1a"
+          },
+          "blur": false,
+          "showOnLaunch": true,
+          "autoHide": true
+        }
+      ],
+      "expo-font",
+      "expo-router",
+      "expo-web-browser"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bc5dc494-90d7-4396-9067-6a16fa62bada"
+      }
+    }
+  }
+}
