@@ -1,0 +1,21 @@
+FILES TO UPLOAD TO GITHUB:
+
+1. package.json (fixed version)
+2. app.json
+3. app/ folder (entire folder)
+4. assets/ folder (entire folder)
+5. data/ folder (entire folder)
+6. components/ folder (entire folder)
+7. hooks/ folder (entire folder)
+8. constants/ folder (entire folder)
+9. babel.config.js
+10. metro.config.js
+11. eas.json
+
+GO TO: https://github.com/ramosjp909stud-netizen/IglesiaNaPhiladelphiaYMN
+CLICK: "Add file" -> "Upload files"
+COMMIT: "Complete hymn app with 312 pages - deployment ready"
+
+AFTER UPLOAD: Go to https://vercel.com/ramosjp909stud-netizen and click "Redeploy"
+
+LIVE URL: https://iglesia-na-philadelphia-ymn.vercel.app
